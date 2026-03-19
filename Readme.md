@@ -4,7 +4,7 @@
 
 ---
 
-### Live Demo - https://nitro-bot.vercel.app
+### Live Demo - 
 
 ## ✨ What It Does
 

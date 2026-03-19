@@ -1,4 +1,4 @@
-// export const BASE_URL = "http://localhost:9000";
+//export const BASE_URL = "http://localhost:9000";
 export const BASE_URL = "https://interview-preparation-ai-bot.onrender.com";
 
 export const API_PATHS = {

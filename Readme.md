@@ -8,7 +8,7 @@
 
 ## ✨ What It Does
 
-* 🤖 Generates **custom interview questions** using **Gemini API**
+* 🤖 Generates **custom interview questions** using **Groq API**
 * 📚 Provides **deep explanations** for better understanding
 * 📌 Lets you **save & pin** questions for quick revision
 * 🗂️ Offers a **personalized dashboard** to manage prep materials
@@ -22,7 +22,7 @@
 * **Frontend:** React.js, Tailwind CSS, React-Toastify
 * **Backend:** Node.js, Express.js
 * **Database:** MongoDB
-* **AI Integration:** Gemini API
+* **AI Integration:** Groq API (Mixtral-8x7b-32768)
 * **Auth:** JWT
 
 ---
@@ -54,9 +54,9 @@ cd client && npm run dev
 Create a `.env` in the **server** folder:
 
 ```env
-MONGO_URI=abc
-JWT_SECRET=TOP_G_TOP_SECRET
-GEMINI_API_KEY=xyz
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+GROQ_API_KEY=your_groq_api_key
 PORT=9000
 ```
 

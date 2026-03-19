@@ -18,9 +18,10 @@ const PORT = process.env.PORT || 5000;
 // Middleware to handle CORS
 app.use(
   cors({
-    origin: "*",
+    origin: ["http://localhost:5173", "http://localhost:3000", "https://interview-preparation-ai-bot.onrender.com"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: true,
   })
 );
 
